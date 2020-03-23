@@ -7,9 +7,8 @@ Module for doing the functions
 def Solve(start, finish):
     result = 0
     for i in range(start, finish,1):
-        if checkNumber(i):
+        if (checkNumber(i) == 1):
             result +=1            
-    return result
     print(result)
 
             
