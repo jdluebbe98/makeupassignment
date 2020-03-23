@@ -8,4 +8,4 @@ Description: This program will test for ascending/consistent digits from 100 to 
 
 from numberFunctions import *
 
-Solve(100,1000)
+Solve(100,1000000000)
